@@ -31,3 +31,17 @@ nav ul li a {
 nav li a:hover {
     color: lightgreen;
 }
+
+.conteudo_01 {
+    background-color:red;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    color:red;
+ }
+ .conteudo_01 p {
+    margin-bottom: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ }
+ 
