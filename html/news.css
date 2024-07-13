@@ -71,21 +71,6 @@ body {
     font-family: Open Sans, sans-serif;
     font-size: 14px;
     line-height: 20px;
-}
-body {
-    color: #333;
-    background-color: #fff;
-    min-height: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-}
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    font-family: sans-serif;
-}
 ::-webkit-scrollbar {
     height: 8px;
     width: 8px;
