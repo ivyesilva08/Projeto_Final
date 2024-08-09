@@ -6,15 +6,15 @@ font-family: "Poppins", sans-serif;
 }
 body {
    margin: 0;
-   font-family: Arial, sans-serif;
-   background-color: #FFFAFA;
+   font-family: arial, sans-serif;
+   background-color: azure;
 }
 
 .navbar {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color: #fff;
+   background-color: #FFFAFA;
    padding: 10px 20px;
 }
 
@@ -46,54 +46,48 @@ body {
    border-radius: 4px;
 }
 
-element.style {
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
-.footer {
-    text-align: center;
-    background-color: #3b4c3d;
-    border: 1px #000;
-    align-items: flex-start;
-    padding: 40px 20px 20px;
+.top-profile{
+  display: flex;
+ gap: 60px;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-    display: block;
+.top-profile i{
+  font-size: 80px;
 }
-* {
-    box-sizing: border-box;
+.name{
+  display: flex; 
+  align-items: center; 
+  gap: 10px; 
+  justify-content: space-between;
 }
-folha de estilo do user agent
-footer {
-    display: block;
-    unicode-bidi: isolate;
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  flex-grow: 1; 
+  border: 1px #ccc;
+  border-radius: 20px;
+  
+
 }
-body {
-    color: #1d311f;
-    font-family: Open Sans, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
+.name p{
+  font-size: 50px;
+ 
 }
-body {
-    color: #333;
-    background-color: #fff;
-    min-height: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-}
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    font-family: sans-serif;
-}
-::-webkit-scrollbar {
-    height: 8px;
-    width: 8px;
-}
-::-webkit-scrollbar-thumb {
-    background: #66b96b;
-    border-radius: 3px;
-}
-::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0);
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap; 
+  border: none;
+  border-radius: 20px;
+  color: #FFFAFA;
+  background-color: #9D8BB3;
+
 }

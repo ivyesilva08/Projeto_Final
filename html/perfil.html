@@ -1,49 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
-    <link rel="stylesheet" href="perfil.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil de Usuário</title>
+  <link rel="stylesheet" href="perfil.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
 </head>
+
 <body>
-    <header class="cabeçalho">
-        <nav class="navbar">
-            <a href="home.html"><img
-              src="assets/logo-aopa-header.svg"
-              alt="Logo"
-              class="logo"
-              width="155px"
-              height="45px"
-            /></a>
-            <ul class="nav-list">
-              <li class="nav-item"><a href="home.html>Início</a></li>
-              <li class="nav-item"><a href="sobre.html" >Sobre</a></li>
-              <li class="nav-item"><a href="news.html" >Portal de notícias</a></li>
-              <li class="nav-item"><a href="contato.html" >Contato</a></li>
-             
-              <li class="nav-item"><a href="perfil.html" ><i class="fa-solid fa-user" style="color: #9d8bb3;"></i></a></li>
-            </ul>
-          </nav>
-      </header>
-     
-      <div class="container" > 
-        <div class="profile">
-          <div class="pfp">
+  <header class="cabeçalho">
+    <nav class="navbar">
+      <a href="home.html"><img src="assets/logo-aopa-header.svg" alt="Logo" class="logo" width="155px"
+          height="45px" /></a>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#">Início</a></li>
+        <li class="nav-item"><a href="sobre.html">Sobre</a></li>
+        <li class="nav-item"><a href="news.html">Portal de notícias</a></li>
+        <li class="nav-item"><a href="contato.html"></a>Contato</a></li>
 
-          </div>
+        <li class="nav-item"><a href="perfil.html"></a><i class="fa-solid fa-user" style="color: #9d8bb3;"></i></a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <div class="container" id="container">
+      <div class="profile"> 
+        <div class="top-profile">
+          <i class="fa-solid fa-user" style="color: #B197FC;"></i>
           <div class="name">
-           <p>Nome de usuário</p>
-            <form >
-              <input type="text" placeholder="Nome">
-            </form>
-          </div>
             
-
-          <div class="personal-info"></div>
+              <input type="text" id="textInput" placeholder="Digite algo...">
+              <button id="submitButton">Enviar</button>
+          
         </div>
       </div>
+    </div>
+  </div>
+<script src="perfil.js"></script>
 </body>
+
 </html>
