@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Perfil de Usuário</title>
   <link rel="stylesheet" href="perfil.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cropperjs@1.5.12/dist/cropper.min.css">
 </head>
 
 <body>
   <header class="cabeçalho">
     <nav class="navbar">
-      <a href="home.html"><img src="assets/logo-aopa-header.svg" alt="Logo" class="logo" width="155px" height="45px" /></a>
+      <a href="home.html"><img src="assets/logo-aopa-header.svg" alt="Logo" class="logo" width="155px"
+          height="45px" /></a>
       <ul class="nav-list">
         <li class="nav-item"><a href="#">Início</a></li>
         <li class="nav-item"><a href="sobre.html">Sobre</a></li>
@@ -28,7 +32,9 @@
       <div class="top-profile">
         <div class="image-upload">
           <label for="uploadImage" class="upload-label">
-            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/454483925_1947436412369528_8707381291655442840_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=lp9cLp7WvngQ7kNvgH_mry5&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QEeLPKIykgCszMjih2fLjGg0OJO5BX6BfSMyADRFcO_CA&oe=66DD8865" id="uploadPreview" class="profile-pic">
+            <img
+              src="https://scontent.xx.fbcdn.net/v/t1.15752-9/454483925_1947436412369528_8707381291655442840_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=lp9cLp7WvngQ7kNvgH_mry5&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QEeLPKIykgCszMjih2fLjGg0OJO5BX6BfSMyADRFcO_CA&oe=66DD8865"
+              id="uploadPreview" class="profile-pic">
           </label>
           <input id="uploadImage" type="file" name="foto" accept="image/jpeg, image/png" style="display: none;">
         </div>
@@ -50,10 +56,26 @@
       </div>
     </div>
   </div>
+  <div class="container-2">
+    <div class="personal-dates">
+      <label for="input">idade</label>
+      <input type="number" name="idade" id="">
+      <button type="submit">salvar</button>
+      <form><label for="input">gênero</label>
+        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="male"> homem
+        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="female"> mulher
+        <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="nb"> não binário
+        <button type="submit">salvar</button>
+        <div class="graphics">
+          <h1>acompanhe sua saúde</h1>
+          <canvas></canvas>
+        </div>
+    </div>
+    </form>
 
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/cropperjs@1.5.12/dist/cropper.min.js"></script>
   <script src="perfil.js"></script>
 </body>
+
 </html>
-
-
